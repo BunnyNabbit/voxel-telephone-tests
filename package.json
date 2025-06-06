@@ -1,0 +1,11 @@
+{
+  "name": "voxel-telephone-tests",
+  "version": "1.0.0",
+  "main": "test.cjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "BunnyNabbit \"Aon Langton\"",
+  "license": "MIT",
+  "description": ""
+}

@@ -1,0 +1,3 @@
+[submodule "voxel-telephone"]
+	path = voxel-telephone
+	url = https://github.com/BunnyNabbit/voxel-telephone
