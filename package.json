@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
-    "test": "cross-env NODE_OPTIONS=--experimental-vm-modules jest"
+    "clone": "git clone --depth=1 https://github.com/BunnyNabbit/voxel-telephone.git",
+    "test": "cd ./voxel-telephone && git pull && pnpm install && cd .. && cross-env NODE_OPTIONS=--experimental-vm-modules jest"
   },
   "author": "BunnyNabbit \"Aon Langton\"",
   "license": "MIT",
