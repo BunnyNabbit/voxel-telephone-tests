@@ -11,6 +11,12 @@ importers:
       jest:
         specifier: ^30.0.4
         version: 30.0.4(@types/node@24.0.10)
+      prettier:
+        specifier: ^3.6.2
+        version: 3.6.2
+      prettier-plugin-drone-class:
+        specifier: ^0.1.0
+        version: 0.1.0
 
 packages:
 
@@ -1068,6 +1074,14 @@ packages:
   pkg-dir@4.2.0:
     resolution: {integrity: sha512-HRDzbaKjC+AOWVXxAU/x54COGeIv9eb+6CkDSQoNTt4XyWoIJvuPsXizxu/Fr23EiekbtZwmh1IcIG/l/a10GQ==}
     engines: {node: '>=8'}
+
+  prettier-plugin-drone-class@0.1.0:
+    resolution: {integrity: sha512-T62HrHhZRN19726PJjulGP+RKqZM1ZbL91yzKMA4x6C1GHNEOyyqmn9HotnJwnnSz5KqsIjXE97vFXo/mhoqjA==}
+
+  prettier@3.6.2:
+    resolution: {integrity: sha512-I7AIg5boAr5R0FFtJ6rCfD+LFsWHp81dolrFD8S79U9tb8Az2nGrJncnMSnys+bpQJfRUzqs9hnA81OAA3hCuQ==}
+    engines: {node: '>=14'}
+    hasBin: true
 
   pretty-format@30.0.2:
     resolution: {integrity: sha512-yC5/EBSOrTtqhCKfLHqoUIAXVRZnukHPwWBJWR7h84Q3Be1DRQZLncwcfLoPA5RPQ65qfiCMqgYwdUuQ//eVpg==}
@@ -2573,6 +2587,17 @@ snapshots:
   pkg-dir@4.2.0:
     dependencies:
       find-up: 4.1.0
+
+  prettier-plugin-drone-class@0.1.0:
+    dependencies:
+      '@babel/generator': 7.28.0
+      '@babel/parser': 7.28.0
+      '@babel/traverse': 7.28.0
+      prettier: 3.6.2
+    transitivePeerDependencies:
+      - supports-color
+
+  prettier@3.6.2: {}
 
   pretty-format@30.0.2:
     dependencies:
