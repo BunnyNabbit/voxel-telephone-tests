@@ -17,5 +17,5 @@ test("Set and get blocks", () => {
 	expect(level.getBlock([0, 0, 0])).toBe(1)
 	expect(level.getBlock([1, 0, 0])).toBe(2)
 	expect(level.getBlock([2, 0, 0])).toBe(0) // Default block
-	expect(() => level.getBlock([32, 32, 32])).toThrow() // Out fo bounds
+	expect(() => level.getBlock([32, 32, 32])).toThrow() // Out of bounds
 })
