@@ -2,7 +2,7 @@ import { Level } from "./voxel-telephone/class/level/Level.mjs"
 import { NullChangeRecord } from "./voxel-telephone/class/level/changeRecord/NullChangeRecord.mjs"
 
 describe("Level", () => {
-	it("should initalize", () => {
+	it("should initialize", () => {
 		const level = new Level()
 		expect(level).toBeInstanceOf(Level)
 	})
