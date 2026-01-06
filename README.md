@@ -1,6 +1,6 @@
 # voxel-telephone-tests
 
-Tests for Voxel Telephone
+Tests for Voxel Telephone. Relocated in [BunnyNabbit/voxel-telephone](https://github.com/BunnyNabbit/voxel-telephone/tree/main/tests).
 
 ## Running
 1. `pnpm` is used and should be installed.
